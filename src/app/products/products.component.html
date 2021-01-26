@@ -1,0 +1,10 @@
+<h2>{{ products.name | uppercase }} Details</h2>
+<div>
+  <label>
+    <ul class="products">
+    <li *ngFor="let product of products">
+      <span class="badge">{{product.id}}</span> {{product.title}}<span class="badgeend">{{product.price}}$</span>
+    </li>
+  </ul>
+  </label>
+</div>
