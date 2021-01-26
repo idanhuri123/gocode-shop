@@ -13,3 +13,8 @@ git commit -m "first commit"
 git remote add origin https://github.com/idanhuri123/gocode-shop.git
 git branch -M master
 git push -u origin master
+
+git checkout -b gh-pages
+
+ng build --prod --output-path docs --base-href /gocode-shop/
+
