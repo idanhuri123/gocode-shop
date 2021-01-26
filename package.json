@@ -8,7 +8,7 @@
     "deploy": "git checkout gh-pages && ng build --prod --output-path docs --base-href /gocode-shop/ && git add . && git commit -m \"update docs\" && git push -u origin gh-pages && git checkout master",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e" 
+    "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {
