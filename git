@@ -18,4 +18,4 @@ git checkout -b gh-pages
 
 ng build --prod --output-path docs --base-href /gocode-shop/
 
-"deploy": "(git checkout -b gh-pages || git checkout gh-pages) && git merge master --no-edit && ng build --prod --output-path docs --base-href /gocode-shop/ && git add . && git commit -m \"update docs\" && git push -u origin gh-pages && git checkout master",
+"deploy": "(git checkout -b master || git checkout master)  && ng build --prod --output-path docs --base-href /gocode-shop/ && git add . && git commit -m \"update docs\" && git push -u origin master && git checkout master",
