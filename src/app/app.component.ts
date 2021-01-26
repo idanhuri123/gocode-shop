@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title: string = 'gocode-shop';
+  title: string = 'gocode-shop2';
   show: boolean = true;
 
   showNHide() {
