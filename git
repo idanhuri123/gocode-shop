@@ -3,13 +3,13 @@ echo "# gocode-shop" >> README.md
 git init
 git add .
 git commit -m "first commit"
-git branch -M main
+git branch -M master
 git remote add origin https://github.com/idanhuri123/gocode-shop.git
-git push -u origin main
+git push -u origin master
 ---------------------------------------------
 …or push an existing repository from the command line
 git add .
 git commit -m "first commit"
 git remote add origin https://github.com/idanhuri123/gocode-shop.git
-git branch -M main
-git push -u origin main
+git branch -M master
+git push -u origin master
