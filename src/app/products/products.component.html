@@ -1,6 +1,6 @@
 <section class="products">
 
-    <div *ngFor="let product of products"  class="product-card">
+    <div *ngFor="let product of this.products"  class="product-card">
       <div class="product-image">
         <img [src]="product.image" />
       </div>
